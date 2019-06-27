@@ -42,3 +42,6 @@ console.log(pae.getFullName());
 pae.getsMarried('Nepe');
 
 console.log(pae.getFullName());
+
+console.log(pae.hasOwnProperty('firstName')); // hasOwnProperty has its own prototype
+console.log(pae.hasOwnProperty('getFullName'));
