@@ -33,9 +33,12 @@ Person.prototype.getsMarried = function(newLastName){
 const cam = new Person('Cameron', 'Nepe', '03-20-1977');
 const pae = new Person('Rebecca', 'Jaram', '12-06-1982');
 
-console.log(pae)
+console.log(cam)
 
-console.log(cam.calculateAge());
+console.log(pae.calculateAge());
 
-console.log(cam.getFullName());
-2
+console.log(pae.getFullName());
+
+pae.getsMarried('Nepe');
+
+console.log(pae.getFullName());
