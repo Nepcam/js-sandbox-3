@@ -15,9 +15,9 @@ const person1 = new Person('Cameron', 'Nepe');
 
 // Cunstomer constructor
 function Customer(firstName, lastName, phone, membership) {
-  Person.call(this, firstName, lastName);
+  Person.call(this, firstName, lastName); // .call - is a function that allows us to call another function from somewhere else in the current context
 
-  this.phone = phone;
+  this.phone = phone;   // and just add properties if you wish to
   this.membership = membership;
 }
 
