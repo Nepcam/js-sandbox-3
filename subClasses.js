@@ -1,5 +1,6 @@
 class Person {
   constructor(firstName, lastName) {
+    // this - refers to the current instance of the object, as it pertains to the Person object 
     this.firstName = firstName;
     this.lastName = lastName;
   }
