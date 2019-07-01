@@ -9,4 +9,4 @@ Object Oriented JavaScript - ES5 &amp; ES2015
 
 28/06/2019 - Prototypal Inheritence
 
-1/07/2019 - Rinse n Repeat, Using Object.create
+1/07/2019 - Rinse n Repeat, Using Object.create, ES6 Classes and Sub-classes
